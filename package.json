@@ -1,15 +1,15 @@
 {
-  "name": "jslessons",
+  "name": "Ice-Cream",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://  нікнейм на гітхабі.github.io/назва вашого репо",
+  "homepage": "https://NickusTop.github.io/Ice-Cream",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /ваш репо/"
+    "build": "parcel build src/*.html --public-url /Ice-Cream/"
   },
   "repository": {
     "type": "git",
-    "url": "git+посилання на ваш репозиторій.git"
+    "url": "git+https://github.com/NickusTop/Ice-Cream.git"
   },
   "keywords": [],
   "author": "",
