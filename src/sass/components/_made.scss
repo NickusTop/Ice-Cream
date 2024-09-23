@@ -1,0 +1,115 @@
+a {
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+.container-how {
+    background-color: #FFF5F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-made {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 20px;
+}
+.p-how {
+    color: #FFA5BA;
+    font-family: "Titan One", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.p-name {
+    color: #D41443;
+    font-family: "Titan One", sans-serif;
+    text-transform: uppercase;
+    font-size: 34px;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+} 
+.p-made {
+    width: 68vw;
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.p-made-2 {
+    width: 68vw;
+    font-family: "DM Sans", sans-serif;
+    color: #907E82;
+    font-size: 12px;
+    font-weight: 600;
+}
+.p-made-2-s {
+    width: 68vw;
+    font-family: "DM Sans", sans-serif;
+    color: #907E82;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.ul-milk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.li-milk {
+    width: 68vw;
+}
+.img-milk {
+    position: absolute;
+    margin-bottom: 40px;
+}
+.container-button-milk {
+    width: 80vw;
+}
+.button-made {
+    width: 176px;
+    height: 44px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    color: #D41443;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.container-made-2 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p-how-2 {
+    font-family: "Titan One", sans-serif;
+    color: #D41443;
+    font-size: 36px;
+    margin-top: 15px;
+}
+.p-hows {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.ul-how {
+    margin-top: 40px;
+}
