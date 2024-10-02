@@ -14,8 +14,8 @@
 .cards-items {
     background-color: #fff;
     border-radius: 24px;
-    width: 220px;
-    height: 390px;
+    width: 210px;
+    height: 430px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 .ul-cargs {
@@ -257,6 +257,9 @@
 .lorem-cards-comp  {
     display: none;
 }
+.ul-footer {
+    margin-top: 0px;
+}
 /*TABLET*/
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     
@@ -276,7 +279,7 @@
         height: 500px;
     }
     .cards-items {
-        height: 495px;
+        height: 520px;
     }
     .ul-cargs {
         display: flex;                
@@ -529,6 +532,9 @@
         display: flex;
         padding-top: 176px;
     }
+    .ul-footer {
+        margin-top: 0px;
+    }
 }
 /*COMPUTER*/
 @media (min-width: 1025px) {
@@ -546,7 +552,7 @@
         position: relative;
     }
     .cards-items {
-        height: 572px;
+        height: 595px;
         width: 330px;
     }
     .ul-cargs {
@@ -844,6 +850,9 @@
         background-image: url(./../imgs/sectionbg2\ 1\ \(1\).webp);
         background-size: 1920px 382px;
         background-position: top;
+    }
+    .ul-footer {
+        margin-top: 0px;
     }
 }
 
