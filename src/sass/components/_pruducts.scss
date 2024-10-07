@@ -1,89 +1,291 @@
-/*COMPUTER*/
 .h3-products {
     font-family: "Titan One";
-    font-weight: 400;
-    font-size: 30px;
-    letter-spacing: 4%;
-    color: rgb(255, 165, 186);
-    text-align: center;
-    margin-top: 127px;
-}
-.section-products {
-    width: 1280px;
-    margin: 0 auto;
-    padding: 0 15px;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 4%;
+        color: rgb(255, 165, 186);
+        text-align: center;
+        margin-top: 127px;
+        margin-bottom: 0;
+        text-transform: uppercase;
 }
 .h2-products {
     font-family: "Titan One";
     font-weight: 400;
-    font-size: 58px;
+    font-size: 34px;
     letter-spacing: 6%;
     color: rgb(212, 20, 67);
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 250px;
+    margin-bottom: 144px;
+    text-transform: uppercase;
 }
+
 .img-products {
-    width: 335px;
-    height: 335px;
-    margin-top: -210px;
+    width: 249px;
+    height: 252px;
+    margin-top: -110px;
 }
 .h4-name-products {
     font-family: "Titan One";
     font-weight: 400;
-    font-size: 30px;
-    letter-spacing: 4%;
+    font-size: 20px;
+    line-height: 21px;
     margin-top: 38px;
     color: #fff;
     text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
 }
 .p-products-dorts {
     font-family: "Titan One";
     font-weight: 400;
     font-size: 30px;
-    letter-spacing: 4%;
-    margin-top: 32px;
-    color: #fff;
+    line-height: 21px;
+    margin-top: 12px;
+    color: #ffffff;
     text-align: center;
 }
 .lorem-products {
     font-family: "DM Sans";
     font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 4%;
-    margin-top: 32px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 30px;
     color: #fff;
     text-align:  center;
+    width: 200px;
 }
 .arrow-product {
     width: 40px;
     height: 40px;
-    margin-top: 62px;
-    margin-left: 144px;
+    margin-top: 30px;
 }
 .li-icecream-product {
-    width: 330px;
-    height: 525px;
+    width: 280px;
+    height: 485px;
     background-color: rgb(255, 184, 202);
-    margin-right: 24px;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .li-coffee-product {
-    width: 330px;
-    height: 525px;
+    width: 280px;
+    height: 485px;
     background-color: rgb(240, 209, 165);
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .li-milk-product {
-    width: 330px;
-    height: 525px;
+    width: 280px;
+    height: 485px;
     background-color: rgb(194, 226, 151);
-    margin-left: 24px;
-}
-.ul-products {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 120px;
+    flex-direction: column;
 }
 .item-products {
     border-radius: 24px;
+}
+.div-products {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.lorem-products-td {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 30px;
+    color: #fff;
+    text-align:  center;
+    width: 198px;
+    display: none;
+}
+@media (min-width:768px) {
+    .h3-products {
+        font-family: "Titan One";
+            font-weight: 400;
+            font-size: 26px;
+            letter-spacing: 4%;
+            color: rgb(255, 165, 186);
+            text-align: center;
+            margin-top: 127px;
+            margin-bottom: 0;
+            text-transform: uppercase;
+    }
+    .h2-products {
+        font-family: "Titan One";
+        font-weight: 400;
+        font-size: 48px;
+        letter-spacing: 6%;
+        color: rgb(212, 20, 67);
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 150px;
+        text-transform: uppercase;
+    }
+    .ul-products {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        padding: 34px;
+    }
+    .li-icecream-product {
+        width: 220px;
+        height: 485px;
+        background-color: rgb(255, 184, 202);
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .li-coffee-product {
+        width: 220px;
+        height: 485px;
+        background-color: rgb(240, 209, 165);
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .li-milk-product {
+        width: 220px;
+        height: 485px;
+        background-color: rgb(194, 226, 151);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .img-products {
+        width: 220px;
+        height: 226px;
+        margin-top: -110px;
+    }
+    .h4-name-products {
+        font-family: "Titan One";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 21px;
+        margin-top: 38px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+    .p-products-dorts {
+        font-family: "Titan One";
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 25px;
+        margin-top: 20px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .lorem-products {
+        display: none;
+    }
+    .lorem-products-td {
+        display: flex;
+    }
+    .arrow-product {
+        width: 40px;
+        height: 40px;
+        margin-top: 40px;
+    }
+}
+@media (min-width:1280px) {
+    .h3-products {
+        font-family: "Titan One";
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: 4%;
+        color: rgb(255, 165, 186);
+        text-align: center;
+        margin-top: 127px;
+    }
+    .section-products {
+        width: 100vw;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .h2-products {
+        font-family: "Titan One";
+        font-weight: 400;
+        font-size: 58px;
+        letter-spacing: 6%;
+        color: rgb(212, 20, 67);
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 250px;
+    }
+    .img-products {
+        width: 335px;
+        height: 335px;
+        margin-top: -210px;
+    }
+    .h4-name-products {
+        font-family: "Titan One";
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: 4%;
+        margin-top: 38px;
+        color: #fff;
+        text-align: center;
+    }
+    .p-products-dorts {
+        font-family: "Titan One";
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: 4%;
+        margin-top: 32px;
+        color: #fff;
+        text-align: center;
+    }
+    .lorem-products {
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 4%;
+        margin-top: 32px;
+        color: #fff;
+        text-align:  center;
+    }
+    .arrow-product {
+        width: 40px;
+        height: 40px;
+        margin-top: 62px;
+        margin-left: 144px;
+    }
+    .li-icecream-product {
+        width: 330px;
+        height: 525px;
+        background-color: rgb(255, 184, 202);
+        margin-right: 24px;
+    }
+    .li-coffee-product {
+        width: 330px;
+        height: 525px;
+        background-color: rgb(240, 209, 165);
+    }
+    .li-milk-product {
+        width: 330px;
+        height: 525px;
+        background-color: rgb(194, 226, 151);
+        margin-left: 24px;
+    }
+    .ul-products {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 120px;
+    }
+    .item-products {
+        border-radius: 24px;
+    }
 }
