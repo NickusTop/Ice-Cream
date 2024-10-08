@@ -1,0 +1,290 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+.header_container {
+  width: 1200px;
+}
+
+/* header */
+.header_item_text {
+  color: white;
+  font-size: 16px;
+  margin-right: 35px;
+  font-family: DM Sans;
+}
+
+.mam {
+  margin-left: 110px;
+}
+
+.mama {
+  margin-right: 110px;
+}
+
+.header_item_text:hover {
+  color: red;
+}
+
+.header_div {
+  align-items: center;
+  padding-top: 37px;
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+}
+
+.header {
+  background-color: pink;
+  border: 0px;
+  z-index: 1;
+}
+
+.header_logo {
+  height: 50px;
+  padding-left: 46px;
+}
+
+.header_list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 1;
+}
+
+.header_buy_menu {
+  border: 0px;
+  border-radius: 22px;
+  width: 159px;
+  height: 44px;
+}
+
+.header_buy_menu:hover {
+  color: white;
+  background-color: red;
+}
+
+.header_main_div {
+  height: 570px;
+  background-color: pink;
+}
+
+.header_main_title {
+  font-family: Titan One;
+  padding-top: 90px;
+  font-size: 38px;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  width: 250px;
+  margin-left: 115px;
+}
+
+.header_main_title_span {
+  color: #d41443;
+  font-size: 58px;
+  letter-spacing: 0.04em;
+}
+
+.header_main_button {
+  width: 138px;
+  height: 40px;
+  border: 0px;
+  border-radius: 22px;
+  color: red;
+}
+
+.header_main_button:hover {
+  color: white;
+  background-color: red;
+}
+
+.mamama {
+  margin-left: 115px;
+}
+
+.header_main_img3 {
+  position: relative;
+  bottom: 22px;
+  margin-left: 77px;
+}
+
+.header_main_img2 {
+  position: absolute;
+  top: 100px;
+  left: 560px;
+}
+
+.header_main_img8 {
+  top: 57px;
+  left: 460px;
+  position: absolute;
+  z-index: 0;
+}
+
+.header_main_text {
+  font-family: DM Sans;
+  font-size: 14px;
+  color: #ffffff;
+  width: 200px;
+}
+
+.header_main_img6 {
+  position: absolute;
+  left: 90.5%;
+  top: 120px;
+}
+
+.header_main_img5 {
+  position: absolute;
+  left: 89%;
+  top: 200px;
+}
+
+.header_main_img4 {
+  position: relative;
+  top: 18px;
+  left: 48%;
+}
+
+.header_main_text {
+  position: relative;
+  left: 25%;
+  top: 140px;
+}
+
+.header_main_img7 {
+  position: relative;
+  left: 25%;
+  bottom: 44px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container-how {
+  background-color: #FFF5F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-made {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.p-how {
+  color: #FFA5BA;
+  font-family: "Titan One", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.p-name {
+  color: #D41443;
+  font-family: "Titan One", sans-serif;
+  text-transform: uppercase;
+  font-size: 34px;
+  width: 200px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.p-made {
+  width: 68vw;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.p-made-2 {
+  width: 68vw;
+  font-family: "DM Sans", sans-serif;
+  color: #907E82;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.p-made-2-s {
+  width: 68vw;
+  font-family: "DM Sans", sans-serif;
+  color: #907E82;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.ul-milk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.li-milk {
+  width: 68vw;
+}
+
+.img-milk {
+  position: absolute;
+  margin-bottom: 40px;
+}
+
+.container-button-milk {
+  width: 80vw;
+}
+
+.button-made {
+  width: 176px;
+  height: 44px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  color: #D41443;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.container-made-2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.p-how-2 {
+  font-family: "Titan One", sans-serif;
+  color: #D41443;
+  font-size: 36px;
+  margin-top: 15px;
+}
+
+.p-hows {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.ul-how {
+  margin-top: 40px;
+}
