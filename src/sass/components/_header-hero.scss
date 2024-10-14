@@ -1,0 +1,410 @@
+.header_container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  position: relative;
+}
+
+
+
+/* header */
+
+.header_item_text {
+
+  color: white;
+  font-size: 16px;
+  margin-right: 35px;
+  font-family: DM Sans;
+}
+
+.mam {
+  margin-left: 110px;
+}
+
+.mama {
+  margin-right: 110px;
+}
+
+.header_item_text:hover {
+  color: red;
+}
+
+.header_div {
+  align-items: center;
+  padding-top: 37px;
+  display: flex;
+  flex-direction: row;
+  width: 1170px;
+  display: flex;
+}
+.header {
+  background-color: pink;
+  border: 0px;
+  z-index: 1;
+}
+
+.header_logo {
+  height: 50px;
+  padding-left: 46px;
+}
+
+.header_list {
+  display: flex;
+  flex-direction: row;  
+  z-index: 1;
+}
+
+.header_buy_menu {
+  border: 0px;
+  border-radius: 22px;
+  width: 159px;
+  height: 44px;
+}
+
+.header_buy_menu:hover {
+  color: white;
+  background-color: red;
+}
+
+.header_main_div {
+  height: 557px;
+  background-color: pink;
+}
+
+.header_main_title {
+  font-family: Titan One;
+  padding-top: 60px;
+  font-size: 38px;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  width: 250px;
+  margin-left: 115px;
+  margin-top: 0px;
+}
+
+.header_main_title_span {
+  color: #d41443;
+  font-size: 58px;
+  letter-spacing: 0.04em;
+}
+
+.header_main_button {
+  width: 138px;
+  height: 40px;
+  border: 0px;
+  border-radius: 22px;
+  color: red;
+}
+
+.header_main_button:hover {
+  color: white;
+  background-color: red;
+}
+
+.mamama {
+  margin-left: 115px;
+}
+
+.header_main_img3 {
+
+  position: relative;
+  bottom: 100px;
+  margin-left: 77px;
+}
+
+.header_main_img2 {
+  position: absolute;
+  top: 0px;
+  left: 590px;
+}
+
+.header_main_img8 {
+  top: -55px;
+  left: 465px;
+  position: absolute;
+  z-index: 0;
+}
+
+.header_main_text {
+  font-family: DM Sans;
+  font-size: 14px;
+  color: #ffffff;
+  width: 200px;
+}
+
+.header_main_img6 {
+  position: absolute;
+  left: 90.5%;
+  top: 50px;
+}
+
+.Burger_menu {
+  display: none;
+}
+
+.header_main_img5 {
+  position: absolute;
+  left: 89%;
+  top: 140px;
+}
+
+.header_main_img4 {
+  position: relative;
+  top: 7px;
+  left: 48%;
+}
+
+.header_main_text {
+  position: relative;
+  left: 25%;
+  top: 80px;
+}
+
+.header_main_img7 {
+  position: relative;
+  left: 25%;
+  bottom: 115px;
+}
+
+@media screen and (max-width:1199px){
+  .header_container {
+    width: 738px;
+    position: static;
+  }
+
+  .header_buy_menu {
+    border: 0px;
+    border-radius: 22px;
+    width: 159px;
+    height: 44px;
+    z-index: 1;
+}
+
+.header_main_div {
+  height: 312px;
+  background-color: pink;
+  width: 738px;
+}
+
+.header_item_text {
+  display: none;
+}
+
+.header_buy_menu:hover {
+    color: white;
+    background-color: red;
+}
+
+.header_main_button:hover {
+    color: white;
+    background-color: red;
+}
+
+.header_main_button {
+    height: 24px;
+    border: 0px;
+    width: 80px;
+    border-radius: 22px;
+    color: red;
+    font-size: 8px;
+    font-family: 'DM Sans';
+}
+
+
+.header_main_title {
+    padding-left: 34px;
+    width: 180px;
+    font-size: 22px;
+    font-family: 'Titan One';
+    color: #FFFFFF;
+    padding-top: 15px;
+    margin: 0px;
+}
+
+.header_main_title_span {
+    color: #d41443;
+    font-size: 34px;
+    letter-spacing: 0.04em;
+}
+
+
+
+.header {
+    background-color: pink;
+    border: 0px;
+    z-index: 1;
+    height: 423px;
+}
+
+.header_main_text {
+    font-family: 'DM Sans';
+    font-size: 8px;
+    color: #ffffff;
+    width: 114px;
+    letter-spacing: 0.04em;
+    position: relative;
+    left: 19%;
+    top: 75px;
+}
+
+.header_div {
+    align-items: center;
+    padding-top: 37px;
+    display: flex;
+    flex-direction: row;
+    width: 738px;
+    display: flex;
+}
+
+.header_div_div {
+    display: flex;
+    justify-content: end;
+    width: 490px;
+}
+
+.header_logo {
+    padding-left: 34px;
+    margin-right: 291px;
+}
+
+.header_main_img2 {
+    position: absolute;
+    top: 87px;
+    left: 50%;
+    width: 143px;
+    height: 336px;
+}
+
+.header_main_img8 {
+    position: absolute;
+    z-index: 0;
+    left: 40%;
+    top: 42px;
+    width: 324px;
+}
+
+.Burger_menu {
+    margin-right: 30px;
+    z-index: 1;
+    display: block;
+}
+
+.header_main_img4 {
+    position: absolute;
+    top: 290px;
+    left: 550px;
+    width: 168px;
+}
+
+.mamama {
+    margin-left: 34px;
+    width: 64px;
+}
+
+.header_main_img7 {
+    margin-left: -15px;
+    width: 18px;
+    bottom: 30px;
+    left: 21%;
+}
+
+.header_main_img3 {
+    margin: 0px;
+    width: 124px;
+    bottom: 20px;
+}
+
+
+.header_main_img6 {
+  width: 43px;
+  top: 140px;
+}
+
+.header_main_img5 {
+  width: 51px;
+  top: 190px;
+}
+}
+
+@media screen and (max-width:767px){
+  .container {
+    width: 320px;
+}
+
+
+
+
+.header_main_button {
+    position: relative;
+    height: 24px;
+    border: 0px;
+    width: 80px;
+    border-radius: 22px;
+    color: red;
+    font-size: 8px;
+    font-family: 'DM Sans';
+    z-index: 11111;
+    top: 140px;
+}
+
+.mamama {
+    margin-left: 20px;
+    width: 64px;
+}
+
+.header {
+    background-color: pink;
+    border: 0px;
+    z-index: 1;
+    height: 502px;
+}
+
+.header_main_img2 {
+    position: absolute;
+    left: 110px;
+    top: 92px;
+}
+
+.header_main_img1 {
+    position: absolute;
+    z-index: 0;
+    left: 36px;
+    top: 83px;
+}
+
+.header_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Burger_menu {
+    padding-left: 61px;
+    padding-top: 10px;
+}
+
+.header_logo {
+    padding-left: 20px;
+    padding-top: 7px;
+}
+
+.header_main_title {
+    position: relative;
+    padding-left: 20px;
+    width: 162px;
+    font-size: 26px;
+    font-family: 'Titan One';
+    color: #FFFFFF;
+    padding-top: 15px;
+    z-index: 1000;
+    top: 135px;
+}
+
+.header_main_title_span {
+    color: #d41443;
+    font-size: 48px;
+    letter-spacing: 0.04em;
+}
+
+
+}
