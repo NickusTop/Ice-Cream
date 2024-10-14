@@ -1,10 +1,16 @@
-const menu = document.querySelector('.menu');
-const menuToggle = document.getElementById('menuToggle');
+document.addEventListener('DOMContentLoaded', function() {
+    const body = document.body;
+    const menu = document.getElementById('menu');
+    const openMenuBtn = document.getElementById('openMenu');
+    const closeMenuBtn = document.getElementById('closeMenu');
 
-menuToggle.addEventListener('click', () => {
-    if (menu.style.left === '-250px') {
-        menu.style.left = '0';
-    } else {
-        menu.style.left = '-250px';
-    }
+    openMenuBtn.addEventListener('click', function() {
+        menu.classList.add('active');
+        body.classList.add('no-scroll');
+    });
+
+    closeMenuBtn.addEventListener('click', function() {
+        menu.classList.remove('active');
+        body.classList.remove('no-scroll');
+    });
 });
