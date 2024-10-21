@@ -44,6 +44,7 @@ li {
     font-size: 12px;
     font-weight: 600;
     margin-top: 50px;
+    width: 220px;
     margin-bottom: 35px;
     z-index: 3;
 }
@@ -54,6 +55,7 @@ li {
     font-size: 12px;
     font-weight: 600;
     z-index: 3;
+    width: 220px;
 }
 .p-made-2-s {
     width: 68vw;
@@ -63,6 +65,7 @@ li {
     font-weight: 600;
     margin-top: 15px;
     z-index: 3;
+    width: 220px;
 }
 .ul-milk {
     display: flex;
@@ -73,6 +76,10 @@ li {
 }
 .li-milk {
     width: 68vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .img-milk {
     position: absolute;
