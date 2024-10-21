@@ -1,0 +1,338 @@
+
+@media screen and (min-width:320px) {
+    .burger-menu {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 998;
+    }
+    
+    .menu-burger {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100%;
+        background-color: #E17992;
+        color: white;
+        transition: right 0.3s ease;
+        z-index: 999;
+    }
+    
+    .menu-burger ul {
+        list-style-type: none;
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .menu-burger ul li {
+        width: 250px;
+        border-top: 1px solid #E18298;
+        display: flex;
+        align-items: center;
+        height: 42px;
+    }
+    
+    .menu-burger ul li:last-child {
+        width: 250px;
+        border-top: 1px solid #E18298;
+        border-bottom: 1px solid #E18298;
+        display: flex;
+        align-items: center;
+        height: 42px;
+    }
+    
+    .a-burger {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        margin-left: 24px;
+        font-weight: 600;
+        font-family: "DM Sans", sans-serif;
+    }
+    .first {
+        color: #D41443;
+        text-decoration: none;
+        font-size: 14px;
+        margin-left: 24px;
+        font-weight: 700;
+        font-family: "DM Sans", sans-serif;
+    }
+    .menu-burger .close-icon {
+        font-size: 30px;
+        position: absolute;
+        top: 20px;
+        right: 28px;
+        cursor: pointer;
+        width: 14px;
+    }
+    
+    .menu-burger.active {
+        right: 0; /* Меню виїжджає справа */
+    }
+    .button-burger {
+        width: 209px;
+        height: 44px;
+        border-radius: 20px;
+        border: none;
+        color: #D41443;
+        font-weight: 700;
+        background-color: white;
+        margin-bottom: 20px;
+        font-family: "DM Sans", sans-serif;
+    }
+    }
+@media screen and (min-width:480px) {
+    .burger-menu {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 998;
+    }
+    
+    .menu-burger {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100%;
+        background-color: #E17992;
+        color: white;
+        transition: right 0.3s ease;
+        z-index: 999;
+    }
+    
+    .menu-burger ul {
+        list-style-type: none;
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .menu-burger ul li {
+        width: 250px;
+        border-top: 1px solid #E18298;
+        display: flex;
+        align-items: center;
+        height: 42px;
+    }
+    
+    .menu-burger ul li:last-child {
+        width: 250px;
+        border-top: 1px solid #E18298;
+        border-bottom: 1px solid #E18298;
+        display: flex;
+        align-items: center;
+        height: 42px;
+    }
+    
+    .a-burger {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        margin-left: 24px;
+        font-weight: 600;
+        font-family: "DM Sans", sans-serif;
+    }
+    .first {
+        color: #D41443;
+        text-decoration: none;
+        font-size: 14px;
+        margin-left: 24px;
+        font-weight: 700;
+        font-family: "DM Sans", sans-serif;
+    }
+    .menu-burger .close-icon {
+        font-size: 30px;
+        position: absolute;
+        top: 20px;
+        right: 28px;
+        cursor: pointer;
+        width: 14px;
+    }
+    
+    .menu-burger.active {
+        right: 0; /* Меню виїжджає справа */
+    }
+    .button-burger {
+        width: 209px;
+        height: 44px;
+        border-radius: 20px;
+        border: none;
+        color: #D41443;
+        font-weight: 700;
+        background-color: white;
+        margin-bottom: 20px;
+        font-family: "DM Sans", sans-serif;
+    }
+    }
+@media screen and (min-width:768px) {
+.burger-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 998;
+}
+
+.menu-burger {
+    position: fixed;
+    top: 0;
+    right: -254px;
+    width: 254px;
+    height: 100%;
+    background-color: #E17992;
+    color: white;
+    transition: right 0.3s ease;
+    z-index: 999;
+}
+
+.menu-burger ul {
+    list-style-type: none;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-burger ul li {
+    width: 254px;
+    border-top: 1px solid #E18298;
+    display: flex;
+    align-items: center;
+    height: 42px;
+}
+
+.menu-burger ul li:last-child {
+    width: 254px;
+    border-top: 1px solid #E18298;
+    border-bottom: 1px solid #E18298;
+    display: flex;
+    align-items: center;
+    height: 42px;
+}
+
+.a-burger {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 24px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+}
+.first {
+    color: #D41443;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 24px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+}
+.menu-burger .close-icon {
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 34px;
+    cursor: pointer;
+    width: 14px;
+}
+
+.menu-burger.active {
+    right: 0; /* Меню виїжджає справа */
+}
+.button-burger {
+    width: 186px;
+    height: 44px;
+    border-radius: 20px;
+    border: none;
+    color: #D41443;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "DM Sans", sans-serif;
+}
+.button-burger:hover {
+    background-color: #ECEBEB;
+}
+}
+@media screen and (min-width:968px) {
+    .burger-menu {
+        display: none;
+    }
+    
+    .menu-burger {
+        display: none;
+    }
+    
+    .menu-burger ul {
+        list-style-type: none;
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .menu-burger ul li {
+        width: 250px;
+        border-top: 1px solid #E18298;
+        display: flex;
+        align-items: center;
+        height: 42px;
+    }
+    
+    .menu-burger ul li:last-child {
+        width: 250px;
+        border-top: 1px solid #E18298;
+        border-bottom: 1px solid #E18298;
+        display: flex;
+        align-items: center;
+        height: 42px;
+    }
+    
+    .a-burger {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        margin-left: 24px;
+        font-weight: 600;
+        font-family: "DM Sans", sans-serif;
+    }
+    .first {
+        color: #D41443;
+        text-decoration: none;
+        font-size: 14px;
+        margin-left: 24px;
+        font-weight: 700;
+        font-family: "DM Sans", sans-serif;
+    }
+    .menu-burger .close-icon {
+        font-size: 30px;
+        position: absolute;
+        top: 20px;
+        right: 28px;
+        cursor: pointer;
+        width: 14px;
+    }
+    
+    .menu-burger.active {
+        right: 0; /* Меню виїжджає справа */
+    }
+    .button-burger {
+        width: 209px;
+        height: 44px;
+        border-radius: 20px;
+        border: none;
+        color: #D41443;
+        font-weight: 700;
+        background-color: white;
+        margin-bottom: 20px;
+        font-family: "DM Sans", sans-serif;
+    }
+    }
